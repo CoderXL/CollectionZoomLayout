@@ -12,6 +12,8 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define ACTIVE_DISTANCE 200
 #define ZOOM_FACTOR 0.3
+#define DecoTemplateSectionTopInset 10
+#define DecoTemplateItemCellMinumPadding 8
 
 @interface TemplateFlowLayout ()
 @property (nonatomic, assign) CGFloat previousOffset;
